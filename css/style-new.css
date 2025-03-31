@@ -1,0 +1,94 @@
+@import url('../fonts/inter.css');
+
+body{font-family:Inter,sans-serif;font-size:16px;font-weight:400!important;color:#000000;background-image: url(../images/bg-body.webp);background-repeat: no-repeat;background-size: cover;margin:auto; }
+*{font-family:Inter,sans-serif;font-weight:400}
+
+@media(max-width:1400px){
+body{background-size:auto}
+}
+@media(max-width:600px){
+body{background-image:url(../images/bg-body-mob.webp);background-size:cover}
+}
+.font-500{font-weight:500!important}
+.form-control{border:1px solid #656565}
+p{font-weight:300}
+p span{font-weight:600;color:#1f4388}
+.treatment_all_heading_page{font-size:26px;color:#000;font-weight:500;margin-bottom:5px}
+.treatment_all_heading_page span{color:#1f4388;font-weight:700}
+@media(max-width:600px){
+.treatment_all_heading_page{font-size:20px}
+}
+header{background:0 0;min-height:60px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.thank-you-msg-heading{font-size: 32px;font-weight: 600;color: #1f4388;}
+@media(max-width:600px){
+  .thank-you-msg-heading{font-size: 24px;font-weight: 600;color: #1f4388;}
+}
+/*=====================================================================*/
+/* Book an Appointment Start CSS*/
+/*=====================================================================*/
+.treatment_all_comm_div_new_book_an_appoinment .form_bg_new_for_rp{padding:20px;background:linear-gradient(0deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);;border:none;border-radius:20px;}
+.form_section_div_book_an_appoinment h3 strong{font-size:34px}
+.form_section_div_book_an_appoinment h3 strong{font-weight:700;color:#1f83c5}
+@media(max-width:600px){
+.treatment_all_comm_div_new_book_an_appoinment .form_bg_new_for_rp{border-radius:0;padding:20px 15px 15px;width:92%;border-radius:20px;margin:auto}
+.form_section_div_book_an_appoinment h3{font-size:21px;margin-bottom:5px;line-height:normal}
+.form_section_div_book_an_appoinment h3 strong{font-weight:700;color:#1f83c5;font-size:21px;line-height:38px}
+}
+/*=====================================================================*/
+/* Book an APpoinment Form Form css*/
+/*=====================================================================*/
+.form_section_div_book_an_appoinment #evaluvationform{text-align:center;position:relative;margin-top:0}
+.form_section_div_book_an_appoinment #evaluvationform fieldset{border:0 none;border-radius:.5rem;box-sizing:border-box;width:100%;margin:0;position:relative}
+.form_section_div_book_an_appoinment .form-card{text-align:left}
+.form_section_div_book_an_appoinment #evaluvationform fieldset:not(:first-of-type){display:none}
+.form_section_div_book_an_appoinment #evaluvationform .action-button{width:100%;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#1f4388;font-weight:700;border:none;background:linear-gradient(90deg,#a1fcb3 0,#82e3fb 100%);border-radius:50px}
+.form_section_div_book_an_appoinment #evaluvationform .action-button-previous{width:100%;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#fff;border-radius:6px;font-weight:500;border:none;background-color:#1f83c5;text-transform:uppercase;border-radius:50px}
+.form_section_div_book_an_appoinment .card{z-index:0;border:none;position:relative}
+.form_section_div_book_an_appoinment .fs-title{font-size:25px;color:#673ab7;margin-bottom:15px;font-weight:400;text-align:left}
+.form_section_div_book_an_appoinment .steps{font-size:25px;color:gray;margin-bottom:10px;font-weight:400;text-align:right}
+.form_section_div_book_an_appoinment .fieldlabels{color:gray;text-align:left}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar{margin-bottom:0;overflow:hidden;color:#d3d3d3;padding-inline-start:00px}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar .active{color:#154778}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar li{list-style-type:none;font-size:15px;width:50%;float:left;position:relative;font-weight:400}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar #account:before{font-family:FontAwesome;content:"\f13e"}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar #personal:before{font-family:FontAwesome;content:"\f007"}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar #payment:before{font-family:FontAwesome;content:"\f030"}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar #confirm:before{font-family:FontAwesome;content:"\f00c"}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar li:before{width:90%;height:2px;line-height:45px;display:block;font-size:20px;color:#fff;background:#d3d3d3;border-radius:0;margin:0 auto 10px auto;padding:2px}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar li:after{content:'';width:100%;height:2px;background:#d3d3d3;position:absolute;left:0;top:25px;z-index:999}
+.form_section_div_book_an_appoinment #evaluvationform #progressbar li.active:after,.form_section_div_book_an_appoinment #evaluvationform #progressbar li.active:before{background:#154778}
+.form_section_div_book_an_appoinment #evaluvationform .progress{height:20px}
+.form_section_div_book_an_appoinment #evaluvationform .progress-bar{background-color:#154778}
+.form_section_div_book_an_appoinment .fit-image{width:100%;object-fit:cover}
+@media(max-width:600px){
+.form_section_div_book_an_appoinment #evaluvationform .action-button{width:100%}
+}
+.treatment_all_comm_div_new_book_an_appoinment.form_section_div{padding:20px 0;background-color:transparent;border-top:20px solid #0c4475;border-bottom:20px solid #0c4475}
+.treatment_all_comm_div_new_book_an_appoinment .form_custom_bg_testmonilas{background:0 0;padding:0}
+.treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom label{position:absolute;top:37%;left:28px;transform:translateY(-50%);font-size:16px!important;color:#757575;pointer-events:none;transition:all .15s ease-out}
+.treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom input,.treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom select{display:block;width:100%;height:42px;padding:.375rem .75rem;font-size:16px!important;font-weight:400;line-height:1.5;color:#000;background-color:transparent;background-clip:padding-box;border:1px solid #a2a2a2;border-radius:6px;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+.treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom input:focus,.treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom select:focus{border:1px solid #1f4388;outline:0;background-color:transparent}
+.treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom input.has-value+label,.treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom input:focus+label,.treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom select.has-value+label,.treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom select:focus+label{top:-1px;font-size:11px!important;font-weight:600;color:#1f4388;background-color:#fff;padding:5px 6px 0 6px}
+.treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom input:focus::-webkit-input-placeholder,.treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom select:focus::-webkit-input-placeholder{color:transparent}
+.treatment_all_comm_div_new_book_an_appoinment .check_box_lable input{width:16px;height:auto;display:inline-flex;margin-left:-18px}
+.treatment_all_comm_div_new_book_an_appoinment .check_box_lable{margin-left:18px}
+.treatment_all_comm_div_new_book_an_appoinment .check_box_lable label{padding-top:0;font-size:14px!important;color:#212121!important;margin-bottom:15px;text-align:left;font-weight:600}
+.treatment_all_comm_div_new_book_an_appoinment .form_custom_heading_testmonilas{margin-bottom:0;font-size:32px!important;text-align:left;font-weight:400;color:#212121;line-height:normal}
+.treatment_all_comm_div_new_book_an_appoinment .form_custom_heading_testmonilas span{font-weight:600;color:#187fc3}
+.treatment_all_comm_div_new_book_an_appoinment .btn_custom_testmonilas{width:100%;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#fff;border-radius:6px;font-weight:500;border:none;background-color:#1f83c5!important;text-transform:uppercase;border-radius:50px}
+@media(max-width:600px){
+.treatment_all_comm_div_new_book_an_appoinment.form_section_div{margin-top:20px;background-color:transparent}
+.treatment_all_comm_div_new_book_an_appoinment .form_section_div .container{border-radius:20px}
+.treatment_all_comm_div_new_book_an_appoinment .form_custom_bg_testmonilas{width:100%;background:0 0;padding:0;border-radius:20px}
+.treatment_all_comm_div_new_book_an_appoinment .testmonilas_form_custom label{position:absolute;top:37%;left:28px;transform:translateY(-50%);font-size:16px!important;color:#757575;pointer-events:none;transition:all .15s ease-out}
+.treatment_all_comm_div_new_book_an_appoinment .check_box_lable label{padding-top:0;font-size:10px!important;color:#212121!important;margin-bottom:15px}
+.treatment_all_comm_div_new_book_an_appoinment .btn_custom_testmonilas{font-size:16px!important}
+.treatment_all_comm_div_new_book_an_appoinment .form_custom_heading_testmonilas{margin-bottom:12px;font-size:24px!important;text-align:center;font-weight:400;color:#212121;line-height:normal}
+.treatment_all_comm_div_new_book_an_appoinment .form_custom_heading_testmonilas span{font-weight:600;color:#187fc3}
+.treatment_all_comm_div_new_book_an_appoinment .btn_custom_testmonilas{font-size:16px!important}
+}
+.btn-form{height:calc(1.5em + .75rem + 2px);margin-left:5px;font-weight:700!important;font-size:1em;line-height:1em;background:#0c4679!important;color:#fff!important;border:1px solid #0c4679;border-radius:.25rem!important;transition:.5s;outline:0!important}
+.form-group .resend{color:#154778;font-size:12px!important;font-weight:400!important;cursor:pointer}
+.open-button{background-color:#1a75ac;font-size:21px;color:#fff;padding:15px 20px;border:none;cursor:pointer;position:fixed;bottom:0;right:auto;left:0;width:100%;font-weight:600;text-decoration:none}
+.open-button a{text-decoration:none}
+.open-button:hover{color:#fff;text-decoration:none}
