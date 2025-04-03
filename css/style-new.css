@@ -3,9 +3,6 @@
 body{font-family:Inter,sans-serif;font-size:16px;font-weight:400!important;color:#000000;background-image: url(../images/bg-body.webp);background-repeat: no-repeat;background-size: cover;margin:auto; }
 *{font-family:Inter,sans-serif;font-weight:400}
 
-@media(max-width:1400px){
-body{background-size:auto}
-}
 @media(max-width:600px){
 body{background-image:url(../images/bg-body-mob.webp);background-size:cover}
 }
@@ -21,7 +18,7 @@ p span{font-weight:600;color:#1f4388}
 header{background:0 0;min-height:60px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .thank-you-msg-heading{font-size: 32px;font-weight: 600;color: #1f4388;}
 @media(max-width:600px){
-  .thank-you-msg-heading{font-size: 24px;font-weight: 600;color: #1f4388;}
+  .thank-you-msg-heading{font-size: 22px;font-weight: 600;color: #1f4388;}
 }
 /*=====================================================================*/
 /* Book an Appointment Start CSS*/
@@ -95,7 +92,12 @@ header{background:0 0;min-height:60px;display:-webkit-box;display:-ms-flexbox;di
 .open-button a{text-decoration:none}
 .open-button:hover{color:#fff;text-decoration:none}
 .reference-group{width:95%; padding:20px 30px 10px;margin:20px auto;background:linear-gradient(0deg,rgba(255,255,255,.9) 0,rgba(255,255,255,.9) 100%);border-radius:20px}
-
+@media(max-width:600px){
+  .reference-group{
+    margin-top: 10px;
+    padding: 20px 10px 10px 10px;
+  }
+}
 
 /*==========================================*/
 /* Icon section css*/
@@ -122,6 +124,40 @@ header{background:0 0;min-height:60px;display:-webkit-box;display:-ms-flexbox;di
 /*==========================================*/
 /* List section css*/
 /*==========================================*/
-.tih_list_pointer_item_css{padding-inline-start:25px}
-.tih_list_pointer_item_css li{font-weight:300;font-size:16px;margin-bottom:5px}
+.tih_list_pointer_item_css{padding-inline-start:0px}
+.tih_list_pointer_item_css li{font-weight:300;font-size:16px;margin-bottom:5px; list-style: none;}
 .tih_list_pointer_item_css li strong{font-weight:600;color:#1f4388}
+
+.inputSubmit{
+    height: calc(1.5em + .75rem + 2px);
+    font-weight: 700 !important;
+    font-size: 1em;
+    line-height: 1em;
+    background: #0c4679;
+    color: #fff !important;
+    border: 1px solid #0c4679 !important;
+    border-radius: 6px !important;
+    transition: .5s;
+    outline: 0 !important;
+}
+
+.inputRemove{
+    height: calc(1.5em + .75rem + 2px);
+    font-weight: 700 !important;
+    font-size: 1em;
+    line-height: 1em;
+    background: transparent;
+    color: #0c4679 !important;
+    border: 1px solid #0c4679 !important;
+    border-radius: 6px !important;
+    transition: .5s;
+    outline: 0 !important;
+}
+
+.inputSubmit:hover{
+  background: #0c4679;
+}
+
+.inputRemove:hover{
+  background: transparent;
+}

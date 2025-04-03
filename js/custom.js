@@ -18,7 +18,7 @@
         <div class="form_colum_custom">
            <div class="row">
               <div class="col-12">
-              <h3 class="mb-0">Refrence Details</h3>
+              <h3 class="mb-0">Reference Details</h3>
             </div>
             <div class="col-md-6 form_colum_custom">
               <div class="form-group mt-md-2">
@@ -43,8 +43,10 @@
            
           
         <div class="col-md-12 mt-2 mb-3">
+          <button type="button" class="btn btn-danger inputSubmit">Submit</button>
           <button type="button" class="btn btn-danger inputRemove" data-id="ref_${counter}">Remove</button>
         </div>
+
         </div>
           </div>
       </div>`;

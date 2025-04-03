@@ -29,14 +29,29 @@
     </div>
   </header>
   <section class="mt-5">
-    <div class="container pt-md-5">
-      <div class="row mt-md-5 pt-md-5">
-        <div class="col-md-12 text-center">
-          <h2 class="thank-you-msg-heading">Thank You for becoming a Health Ambassador!</h2> </div>
-        <div class="col-12 mx-auto text-center pl-0 pr-0 mt-2 ">
-          <input type="button" id="addmore" value="+ Add Reference" class="btn btn-form btn-verify d-block"> </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-left">
+          <h2 class="thank-you-msg-heading">Thank You for becoming a "Together in Health" Ambassador!</h2> 
+        </div>
+        <div class="col-md-12 text-left">
+          <h2 class="treatment_all_heading_page mb-2">How to Unlock Benefits in 2 Simple Steps?</h2>
+          <!-- <p>Register to become a part of <strong>"Together in Health"</strong> | Refer at least 1 patient who starts treatment within 30 days</p> -->
+          <ul class="tih_list_pointer_item_css">
+            <li><strong>Step 1 :</strong> Register to become a part of <strong>"Together in Health"</strong></li>
+            <li><strong>Step 2 :</strong> Refer a <strong>Loved One</strong> who starts their treatment within 30 days</li>
+          </ul>
+        </div>
+        <div class="col-md-12 text-center mt-3 mb-0">
+          <h3>Start Referring Now !</h3>
+        </div>
+
+
         <div id="req_input">
-          <!-- <div class="row ptmd-1 reference-group" id="consultForm">
+          <div class="row ptmd-1 reference-group" id="consultForm">
+              <div class="col-12">
+              <h3 class="mb-0">Reference Details</h3>
+            </div>
             <div class="col-md-6 form_colum_custom">
               <div class="form-group mt-md-2">
                 <label class="custom_lable_cls">Full Name*</label>
@@ -56,8 +71,15 @@
               <div class="form-group">
                 <label class="custom_lable_cls">Location</label>
                 <input name="location[]" class="form-control" placeholder="Enter Your Location"> </div>
+            </div> 
+            <div class="col-md-12 mt-2 mb-3">
+              <button type="button" class="btn btn-danger inputSubmit">Submit</button>
+              <button type="button" class="btn btn-danger inputRemove" data-id="ref_${counter}">Remove</button>
             </div>
-          </div> --></div>
+          </div>
+        </div>
+        <div class="col-12 mx-auto text-center pl-0 pr-0 mt-2 mb-5">
+          <input type="button" id="addmore" value="+ Add Reference" class="btn btn-form btn-verify d-block"> </div>
       </div>
     </div>
   </section>
